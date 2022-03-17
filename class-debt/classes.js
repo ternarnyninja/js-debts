@@ -161,3 +161,13 @@ console.log(tail);
 for(let prop in tail) {
   console.log(prop); // tail, roar, hasTail
 }
+
+class User {
+  constructor(name) {
+    this.name = name;
+  }
+
+  sayHi() {
+    console.log(this.name);
+  }
+}
